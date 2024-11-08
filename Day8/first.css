@@ -1,0 +1,11 @@
+div{
+    background-color: darkgrey;
+}
+h1{
+    color: rgb(183, 230, 30) !important;
+    background-color: black;
+}
+p{
+    color: aqua !important;
+    background-color: burlywood;
+}

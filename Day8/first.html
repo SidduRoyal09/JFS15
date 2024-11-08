@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            color: rgb(55, 56, 167) !important;
+        }
+        .classcolor{
+            color: rgb(207, 177, 23);
+        }
+        #idcolor{
+            color: blue;
+        }
+        /* div p{
+            color: rgb(44, 180, 162) ;
+        } */
+        h1{
+            color: darkmagenta;
+        }
+       
+        p{
+            color: inherit;
+        }
+        /* P{
+            color: aqua;
+        } */
+    </style>
+    <link href="first.css" rel="stylesheet"/>
+</head>
+<body>
+    <div><P>default color is used </P></div>
+    <div><P class="classcolor">default color is used overided with class color</P></div>
+    <div><P id="idcolor">default color is used overided with id color</P></div>
+    <div>
+        <h1>this is for inheretence the color from parent</h1>
+        <p style="color: red !important;">Acquried the color from parent</p>
+    </div>
+</body>
+</html>
