@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border: 1px solid lightgray;
+            
+            /* box-shadow: 5px 5px 10px 0px blue; */
+        }
+        .simple-shadow{
+            box-shadow: inset 5px 5px 10px 0px rgb(0, 0, 255),inset -5px -5px 10px 0px red;
+            /* box-shadow: inset -5px -5px 10px 0px red; */
+            /* box-shadow: Xpx Ypx blurpx spreadpx color  */
+        }
+    </style>
+</head>
+<body>
+    <div class="box simple-shadow">Simple Shadow</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    font-size: 46px;
+    background-color:lightpink;
+}
+/* @media (min-width: 650px){
+    body{
+        background-color: skyblue;
+    }
+}
+@media (min-width: 1000px){
+    body{
+        background-color:darkseagreen;
+    }
+} */
+
+
+
+/* @media (orientation:portrait){
+    body{
+        background-color: skyblue;
+    }
+}
+@media (orientation:landscape){
+    body{
+        background-color:darkseagreen;
+    }
+} */
+
+
+
+
+@media (min-width: 600px) and (orientation:portrait){
+    body{
+        background-color: skyblue;
+    }
+}
+@media (min-width: 1000px) and (orientation:landscape){
+    body{
+        background-color:darkseagreen;
+    }
+}
